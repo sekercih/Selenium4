@@ -1,0 +1,6 @@
+# gitmeyecek claslar
+.ignore
+.idea / ** /C02_Xpath01.java
+.idea / ** /C03_CssSelector01.java
+.idea / ** /C04_RelativeLocato.java
+.idea / **/target
