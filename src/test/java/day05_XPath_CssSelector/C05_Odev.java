@@ -9,14 +9,7 @@ import java.time.Duration;
 
 public class C05_Odev {
     public static void main(String[] args) {
-        //*  1.  https://id.heroku.com/login sayfasina gidin
-        //  * 2.  Bir mail adersi giriniz
-        //*   3.  Bir password giriniz
-        //*   4.  Login butonuna tiklayiniz
-        // *  5.  "There was a problem with your login." texti gorunur ise
-        // *   6.  "kayit yapilamadi" yazdiriniz
-        //*   8.  eger yazi gorunur degilse "kayit yapildi" yazdiriniz
-        // *  9.  Tum sayfalari kapatiniz
+
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
@@ -50,7 +43,7 @@ public class C05_Odev {
         }
 
         // *  9.  Tum sayfalari kapatiniz
-        driver.close();
+       // driver.close();
 
     }
 
